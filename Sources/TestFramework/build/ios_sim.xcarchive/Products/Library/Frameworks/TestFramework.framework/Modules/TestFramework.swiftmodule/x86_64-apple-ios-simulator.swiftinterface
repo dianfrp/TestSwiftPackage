@@ -6,7 +6,7 @@ import Swift
 @_exported import TestFramework
 @objc @_inheritsConvenienceInitializers open class PrintTest : ObjectiveC.NSObject {
   public static func printText(text: Swift.String)
-  public static func printText2(text: Swift.String)
+  @objc public static func printText2(text: Swift.String)
   @objc deinit
   @objc override dynamic public init()
 }

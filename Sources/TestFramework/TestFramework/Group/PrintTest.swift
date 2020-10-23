@@ -13,6 +13,7 @@ open class PrintTest: NSObject {
         print(text)
     }
     
+    @objc
     public static func printText2(text: String) {
         print(text)
     }
