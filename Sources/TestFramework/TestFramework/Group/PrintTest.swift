@@ -18,4 +18,9 @@ open class PrintTest: NSObject {
         print(text)
     }
     
+    @objc
+    public func printText3(text: String) {
+        print(text)
+    }
+    
 }
